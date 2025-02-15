@@ -1,6 +1,3 @@
-# RL-Cloud-Resource-Allocation
-Absolutely! Below is a `README.md` file for your RL-Cloud-Resource-Allocation project, formatted similarly to the example you provided:
-
 # RL-Cloud-Resource-Allocation Project
 
 This project explores the application of Reinforcement Learning (RL) for dynamically managing cloud computing resources. The goal is to optimize performance, energy efficiency, and cost by intelligently managing resources such as CPU, memory, and GPU across multiple servers. The project includes a custom RL agent to make intelligent decisions based on the current state of the cloud environment.
@@ -14,6 +11,7 @@ rl_cloud_resource_allocation/
 ├── task.py                  # Represents workloads or tasks
 ├── rl_agent.py              # Implements the RL algorithm
 ├── task_generator.py        # Generates tasks with different patterns
+├── cloud_simulation.py      # Manages the overall cloud simulation logic
 ├── app.py                   # Streamlit interface
 ├── requirements.txt         # Requirement
 └── README.md                # Project documentation
@@ -26,6 +24,7 @@ rl_cloud_resource_allocation/
 - `task.py` - Represents workloads with specific resource requirements and durations.
 - `rl_agent.py` - Implements the reinforcement learning algorithm for dynamic resource allocation.
 - `task_generator.py` - Generates tasks with different patterns (uniform, bursty, pattern-based).
+- `cloud_simulation.py` - Manages the overall cloud simulation logic.
 - `app.py` - Provides a user-friendly Streamlit interface for running and visualizing the simulation.
 - `README.md` - Documentation for the project.
 
@@ -33,7 +32,7 @@ rl_cloud_resource_allocation/
 
 ### 1. Clone the Repository
 ```bash
-https://github.com/Sairaj213/Expert-System_Image-Classifier.git
+https://github.com/Sairaj213/RL-Cloud-Resource-Allocation.git
 cd rl_cloud_resource_allocation
 ```
 
